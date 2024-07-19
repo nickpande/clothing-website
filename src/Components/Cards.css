@@ -1,0 +1,40 @@
+.main-title-tt {
+    margin-bottom: 27px;
+	display: flex;
+    align-items: flex-end;
+}
+
+.main-title-left {
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.main-title-left span {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #006f61;
+    margin-bottom: 10px;
+	display: block;
+    margin-top: 20px;
+}
+
+.main-title-left h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2f4c;
+    margin-top: 0;
+	display: block;
+}
+
+.see-more-btn {
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2b2f4c;
+    text-align: right;
+}
+
+.see-more-btn:hover {
+    color: #006f61 !important;
+}

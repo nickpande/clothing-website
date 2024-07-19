@@ -1,0 +1,57 @@
+/* src/CategoryList.css */
+
+
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  
+  .category-header h2 {
+    color: green;
+    font-size: 18px;
+  }
+  
+  .category-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .see-all {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .category-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
