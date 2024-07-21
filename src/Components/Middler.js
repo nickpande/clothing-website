@@ -6,13 +6,16 @@ import Navbar  from '../Components/Navbar'
 import Slider from '../Components/Slider'
 import Footer from '../Components/Footer'
 import Nice from '../Components/Nice'
+import Centre from '../Components/Centre'
+import ProductSlider from './ProductSlider'
+import AboveFooter from '../AboveFooter'
 
 function Middler() {
 
  
 
   return (
-
+   <div>
     
     <div className='flex flex-col '>
       <div>
@@ -35,34 +38,24 @@ function Middler() {
           <Slider></Slider>
       
         <div>
-            <Cards></Cards>
+           <ProductSlider></ProductSlider>
         </div>
-        <div class="main-title-tt">
-							<div class="main-title-left">
-								<span>For You</span>
-								<h2>New Arrivals Products</h2>
-							</div>
-							<a href="/product_type/3?page=1" class="see-more-btn">See All</a>
-						</div>
-        <div className='mb-14'>
       
-          <NeecheKeCard></NeecheKeCard>
+      
+        <Centre></Centre>
         </div>
 
 
-        <div className='w-screen bg-slate-200'>
-        </div>
-        <div className="category-header">
-        <h1>Fabrics</h1>
-        <a href="#see-all" className="see-all">See All</a>
-      </div>
+        
         
         <Nice></Nice>
-    
+       <div className='flex  items-center justify-center'>
+        <AboveFooter></AboveFooter>
+       </div>
       <div>
         <Footer></Footer>
       </div>
-      
+    
 
     </div>
   )

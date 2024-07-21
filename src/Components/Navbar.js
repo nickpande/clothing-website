@@ -28,7 +28,7 @@ function Navbar(){
 
     function openNav(){
       console.log("hll");
-      document.getElementById("myNave").style.width="100%";
+      document.getElementById("myNave").style.width="10%";
   }
 
   function closeNav(){

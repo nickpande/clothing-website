@@ -2,249 +2,71 @@ import React from 'react'
 
 function NI() {
   return (
-    <div class="flex h-10/12 items-center justify-center overflow-x-hidden px-1 py-6">
-  <div class="group/list flex justify-center gap-1">
-    <div class="peer order-last flex w-max items-center justify-center gap-1">
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/blouse_fabric.jpg" alt="" />
+    <div class="bg-gray-50">
+    <div class="max-w-7xl mx-auto py-8">
+        <h1 class="text-3xl font-bold text-center mb-4">Popular Products</h1>
+        <div class="text-center mb-8">
+            <a href="#" class="text-blue-500 hover:underline mx-2">New Arrivals</a>
+            <a href="#" class="text-gray-500 hover:underline mx-2">Featured</a>
+            <a href="#" class="text-gray-500 hover:underline mx-2">On Sale</a>
         </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">002</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Caktus</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+         
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/236x/9e/b0/ee/9eb0eeb1acba7b15b6f22aee99782ff0.jpg" alt="Tone Sneakers" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Tone Sneakers</h2>
+                <p class="text-lg mb-2">$98.00</p>
+            </div>
+       
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/236x/9d/ae/9b/9dae9b6a2acaace81d9c68788dd158ac.jpg" alt="City Bag" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">City Bag</h2>
+                <p class="text-lg mb-2">$98.00</p>
+            </div>
+          
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/236x/c5/90/d7/c590d729d2f81a53eeb4c766f6148eb8.jpg" alt="Earrings for Women" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Earrings for Women</h2>
+                <p class="text-lg mb-2">$38.00</p>
+            </div>
+            
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/474x/3e/63/1f/3e631fc530548a0d17ee77aed1f8e6db.jpg" alt="Ribbed beanie Group" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Ribbed beanie Group</h2>
+                <p class="text-lg mb-2">$28.00 - $32.00</p>
+            </div>
+           
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/564x/bb/e4/85/bbe48551092e28fbf80238272853f7cd.jpg" alt="Arden Bloom Cotton" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Arden Bloom Cotton</h2>
+                <p class="text-lg mb-2">$98.00</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/564x/bb/e4/85/bbe48551092e28fbf80238272853f7cd.jpg" alt="Fashion Glasses" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Fashion Glasses</h2>
+                <p class="text-lg mb-2">$39.00</p>
+            </div>
+      
+            <div class="bg-white shadow-md rounded-lg p-4 relative">
+                <img src="https://i.pinimg.com/236x/16/17/83/161783f3189bb60023fb7fe6a4dae650.jpg" alt="Leather Shopper Bag" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Leather Shopper Bag</h2>
+                <p class="text-lg mb-2">
+                    <span class="line-through text-gray-400">$60.00</span> $49.00
+                </p>
+                <span class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 text-xs rounded">Sale</span>
+            </div>
+      
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <img src="https://i.pinimg.com/236x/68/e9/9a/68e99af36b460e6bd1a712f047dda9d4.jpg" alt="Leather Convertible" class="w-full h-56 object-cover mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Leather Convertible</h2>
+                <p class="text-lg mb-2">$68.00</p>
+            </div>
         </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/saree_with_ebmbroidery_blouse.jpg" alt="" />
+        <div class="text-center mt-8">
+            <button class="bg-gray-500 text-white px-4 py-2 rounded-lg">LOAD MORE</button>
         </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">003</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Gild Sport</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/kanjeevaram.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">004</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Sketchy</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/2_9xlQzGH.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">005</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Ken Luther</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/kanjeevaram.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      {/* <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/2_9xlQzGH.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div> */}
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/linen_combination.jpg_1.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="/Single" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/panduri.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      {/* <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/2_9xlQzGH.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div> */}
-      {/* <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/panduri.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div> */}
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/2_9xlQzGH.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
-      <div class="group relative w-20 overflow-hidden transition-all duration-500 hover:w-96">
-        <div class="h-96">
-          <a href="#" class="absolute right-0.5 top-0.5 flex h-9 w-9 origin-top-right scale-75 rounded-sm bg-black/10 opacity-0 transition-all delay-300 duration-300 hover:bg-black group-hover:scale-100 group-hover:rounded-md group-hover:bg-black/20 group-hover:opacity-100">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-          <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/2_NfrTEo4.jpg" alt="" />
-        </div>
-        <div class="flex w-96 justify-between px-2 pt-2">
-          <div class="relative">
-            <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition duration-300 group-hover:invisible group-hover:opacity-0">006</span>
-            <h2 class="leading-0 font-medium text-gray-700 opacity-0 transition duration-300 group-hover:opacity-100">Devscast Team</h2>
-          </div>
-          <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-        </div>
-      </div>
     </div>
-    <div class="group relative order-first w-96 overflow-hidden transition-all duration-500 hover:w-96 peer-hover:w-20">
-      <div class="h-96">
-        <div class="absolute right-0.5 top-0.5 flex w-32 origin-top-right justify-end transition-all duration-300 group-hover:right-0.5 group-hover:scale-100 group-hover:opacity-100 group-hover/list:scale-75 group-hover/list:opacity-0">
-          <a href="#" class="flex h-9 w-9 rounded-md bg-black/20 transition-all delay-300 duration-300 hover:bg-black/40">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto h-4 w-4 text-white">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </a>
-        </div>
-        <img class="h-full w-full rounded-lg object-cover" src="https://pipaltreestudio.com/upload/silk_wZcHGSd.jpg" alt="" />
-      </div>
-      <div class="flex w-96 justify-between px-2 pt-2">
-        <div class="relative">
-          <span class="absolute -left-2 m-auto block text-sm tracking-wide text-gray-600 transition-opacity duration-300 opacity-0 group-hover:opacity-0 group-hover/list:opacity-100">001</span>
-          <h2 class="leading-0 group-hover/list:opacity-0 font-medium text-gray-700 transition duration-300 group-hover:opacity-100">Light Trade</h2>
-        </div>
-        <span class="text-sm tracking-wide text-gray-600">Webdesign</span>
-      </div>
-    </div>
-  </div>
-</div>
-
+   </div>
   )
 }
 
